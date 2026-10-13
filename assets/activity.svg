@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250" role="img" aria-labelledby="title desc">
+<title id="title">Live GitHub activity</title>
+<desc id="desc">This placeholder is replaced by GitHub Actions using public account data.</desc>
+<style>
+.bg{fill:#0d1117}
+.h{fill:#f0f6fc;font:600 18px ui-monospace,SFMono-Regular,Consolas,monospace}
+.t{fill:#8b949e;font:14px ui-monospace,SFMono-Regular,Consolas,monospace}
+.dot{fill:#a371f7;animation:dot 1.6s ease-in-out infinite}
+.d2{animation-delay:.25s}.d3{animation-delay:.5s}
+@keyframes dot{0%,100%{opacity:.2}50%{opacity:1}}
+</style>
+<rect class="bg" width="1100" height="250" rx="18"/>
+<rect x="1" y="1" width="1098" height="248" rx="17" fill="none" stroke="#30363d"/>
+<text class="h" x="42" y="55">live github activity</text>
+<text class="t" x="42" y="92">Run the included GitHub Action once to replace this placeholder.</text>
+<circle class="dot" cx="48" cy="137" r="5"/>
+<circle class="dot d2" cx="68" cy="137" r="5"/>
+<circle class="dot d3" cx="88" cy="137" r="5"/>
+<text class="t" x="42" y="190">source: public GitHub API · generated inside this repository · no visitor tracking</text>
+</svg>
