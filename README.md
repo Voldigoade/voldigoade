@@ -1,15 +1,11 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="100%" alt="Technical security banner">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWF5dXY1YTBpbDl3eWo0cXRpaWJhcnRxMGNvOW02b245OG16dzBlaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13HgwGsXF0aiGY/giphy.gif" width="620" alt="Coding animation">
 </p>
 
 <h1 align="center">Voldigoade</h1>
 
 <p align="center">
-  <code>software</code> ·
-  <code>systems</code> ·
-  <code>networking</code> ·
-  <code>security</code> ·
-  <code>privacy</code>
+  <samp>software · systems · networking · security · privacy</samp>
 </p>
 
 <p align="center">
@@ -18,42 +14,86 @@
 
 ---
 
-I build software and spend a lot of time below the application layer: operating systems, networking, protocols, automation, privacy and security.
+### profile
 
-```text
-software      Rust · Python · TypeScript · JavaScript
-applications  Tauri · Node.js · React · Next.js · APIs
-systems       Linux · Unix · Windows · containers · filesystems
-networking    TCP/IP · DNS · routing · VPNs · Tor
-security      AppSec · OSINT · threat modeling · tooling
-privacy       anonymity · metadata · cryptography · steganography
-data          SQLite · local-first systems · structured data
-```
+I work across software, systems and security.
 
-### Focus
+Most of my time goes into building things, testing how systems behave, and going further down the stack when an abstraction gets in the way.
 
-- systems and operating environments
-- networking and protocol behavior
-- privacy-preserving and local-first software
-- automation and developer tooling
-- application security and OSINT
-- cryptography, steganography and anonymity technologies
-- web and desktop application architecture
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### Activity
+**development**
+
+- Rust
+- Python
+- TypeScript / JavaScript
+- React / Next.js
+- Node.js
+- Tauri
+- APIs
+- automation
+
+</td>
+<td valign="top" width="50%">
+
+**systems**
+
+- Linux / Unix
+- Windows
+- filesystems
+- containers
+- virtualization
+- networking
+- DNS / routing
+- VPN / Tor
+
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="50%">
+
+**security**
+
+- application security
+- OSINT
+- threat modeling
+- privacy engineering
+- anonymity systems
+- security tooling
+
+</td>
+<td valign="top" width="50%">
+
+**research**
+
+- cryptography
+- steganography
+- protocols
+- metadata
+- local-first software
+- system internals
+
+</td>
+</tr>
+</table>
+
+### activity
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub contribution graph">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="GitHub contribution graph">
 </p>
 
-### Approach
+### notes
 
 ```text
-understand the system
-reduce unnecessary complexity
+build things
+inspect what happens underneath
+remove unnecessary complexity
 measure before assuming
 keep data collection minimal
-automate the boring parts
 ```
 
 <p align="center">
