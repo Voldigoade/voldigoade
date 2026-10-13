@@ -16,7 +16,7 @@ A web app turns into a systemd service, that turns into a packet capture, and so
 
 I mostly write **Rust, Python and TypeScript**. Everything else depends on what needs fixing.
 
-Linux/Unix, networking, security, privacy, automation, LLMs — if it gives me a good excuse to open too many terminals, I'm probably interested.
+Linux/Unix, networking, security, privacy, automation, LLMs if it gives me a good excuse to open too many terminals, I'm probably interested.
 
 I don't keep much public. What's here is the stuff I actually felt like shipping.
 
