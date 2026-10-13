@@ -5,80 +5,28 @@
 <h1 align="center">Voldigoade</h1>
 
 <p align="center">
-  <samp>software · systems · networking · security · privacy</samp>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,py,ts,js,bash,linux,docker,git,nodejs,react,nextjs,sqlite&perline=12" alt="Core stack">
+  <samp>software · systems · security · privacy</samp>
 </p>
 
 ---
 
-### profile
+I tend to bounce between layers.
 
-I work across software, systems and security.
+A web app turns into a systemd service, that turns into a packet capture, and somehow there's a Rust tool involved by the end of the night. That's usually how it goes.
 
-Most of my time goes into building things, testing how systems behave, and going further down the stack when an abstraction gets in the way.
+I mostly write **Rust, Python and TypeScript**. Everything else depends on what needs fixing.
 
-<table>
-<tr>
-<td valign="top" width="50%">
+Linux/Unix, networking, security, privacy, automation, LLMs — if it gives me a good excuse to open too many terminals, I'm probably interested.
 
-**development**
+I don't keep much public. What's here is the stuff I actually felt like shipping.
 
-- Rust
-- Python
-- TypeScript / JavaScript
-- React / Next.js
-- Node.js
-- Tauri
-- APIs
-- automation
+### usually somewhere around
 
-</td>
-<td valign="top" width="50%">
-
-**systems**
-
-- Linux / Unix
-- Windows
-- filesystems
-- containers
-- virtualization
-- networking
-- DNS / routing
-- VPN / Tor
-
-</td>
-</tr>
-
-<tr>
-<td valign="top" width="50%">
-
-**security**
-
-- application security
-- OSINT
-- threat modeling
-- privacy engineering
-- anonymity systems
-- security tooling
-
-</td>
-<td valign="top" width="50%">
-
-**research**
-
-- cryptography
-- steganography
-- protocols
-- metadata
-- local-first software
-- system internals
-
-</td>
-</tr>
-</table>
+- systems, networking and protocols
+- security, privacy and anonymity tech
+- local-first and desktop software
+- automation, agents and tooling
+- cryptography, steganography and the weird corners of computing
 
 ### activity
 
@@ -86,16 +34,8 @@ Most of my time goes into building things, testing how systems behave, and going
   <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="GitHub contribution graph">
 </p>
 
-### notes
-
-```text
-build things
-inspect what happens underneath
-remove unnecessary complexity
-measure before assuming
-keep data collection minimal
-```
+---
 
 <p align="center">
-  <sub>build · inspect · understand · improve</sub>
+  <sub>most problems get more interesting one layer down.</sub>
 </p>
