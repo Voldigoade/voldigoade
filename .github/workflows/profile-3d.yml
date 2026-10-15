@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/profile-3d.yml
 
 permissions:
   contents: read
@@ -23,6 +26,25 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Validate expected graph files
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in \
+            profile-gitblock.svg \
+            profile-green-animate.svg \
+            profile-green.svg \
+            profile-night-green.svg \
+            profile-night-rainbow.svg \
+            profile-night-view.svg \
+            profile-season-animate.svg \
+            profile-season.svg \
+            profile-south-season-animate.svg \
+            profile-south-season.svg
+          do
+            test -s "profile-3d-contrib/$file"
+          done
+
       - name: Upload generated profile graphs
         uses: actions/upload-artifact@v4
         with:
@@ -32,6 +54,7 @@ jobs:
           retention-days: 1
 
   commit:
+    if: github.event_name != 'pull_request'
     needs: generate
     runs-on: ubuntu-latest
     name: commit-generated-profile-graphs
